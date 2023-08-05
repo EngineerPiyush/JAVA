@@ -1,0 +1,33 @@
+Types Of Modifier
+
+
+1-Access Modifier
+-public 
+-private
+-protected
+-default(No modifier)
+
+
+2-Non Access Modiofier
+-static
+-final
+-abstract
+-synchronized 
+-transient
+-volatile
+-strictfp
+
+
+Static --used for class level variable we can not use with local variable...
+   can be create with variable ,method, block and inner class(nested class)
+--can not be use in outer class..
+
+
+class test
+{
+static int a=10;// yes use with class level variable
+void m1()
+{
+static int b=20;//error  cant be use in with local variable
+}
+}
